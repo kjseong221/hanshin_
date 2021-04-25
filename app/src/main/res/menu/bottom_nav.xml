@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_fragment1"
+        android:title="자취방"
+        android:enabled="true"
+        android:icon="@drawable/home">
+    </item>
+
+    <item
+        android:id="@+id/item_fragment2"
+        android:title="룸메이트"
+        android:enabled="true"
+        android:icon="@drawable/user">
+    </item>
+
+    <item
+        android:id="@+id/item_fragment3"
+        android:title="마켓"
+        android:enabled="true"
+        android:icon="@drawable/market">
+    </item>
+
+    <item
+        android:id="@+id/item_fragment4"
+        android:title="카풀"
+        android:enabled="true"
+        android:icon="@drawable/car">
+    </item>
+
+</menu>
