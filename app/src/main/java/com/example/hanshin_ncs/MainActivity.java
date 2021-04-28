@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private Fragment2 fragment2;
     private Fragment3 fragment3;
     private Fragment4 fragment4;
+    private Fragment5 fragment5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.item_fragment4:
                         setFrag(3);
                         break;
+                    case R.id.item_fragment5:
+                        setFrag(4);
+                        break;
                 }
                 return true;
             }
@@ -55,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         fragment2 = new Fragment2();
         fragment3 = new Fragment3();
         fragment4 = new Fragment4();
+        fragment5 = new Fragment5();
         setFrag(0); //첫 화면 지정
     }
 
@@ -77,6 +82,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case 3:
                 ft.replace(R.id.main_frame, fragment4);
+                ft.commit();
+                break;
+            case 4:
+                ft.replace(R.id.main_frame, fragment5);
                 ft.commit();
                 break;
         }

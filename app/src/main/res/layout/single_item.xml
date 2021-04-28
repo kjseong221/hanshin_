@@ -11,33 +11,34 @@
 
     <ImageView
         android:id="@+id/imageview"
-        android:layout_width="160dp"
-        android:layout_height="120dp"
-        android:scaleType="fitXY"
-
-        ></ImageView>
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="2dp"
+        android:scaleType="fitXY"></ImageView>
 
     <TextView
-        android:id="@+id/textview_name"
-        android:text="방 이름"
-        android:layout_width="match_parent"
+        android:id="@+id/textview_title"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:fontFamily="@font/smalip"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/gamrketmedium"
         android:gravity="center"
+        android:text="title"
         android:textColor="@color/black"
-        android:textSize="14dp"
+        android:textSize="18dp"
 
         ></TextView>
 
     <TextView
         android:id="@+id/textview_Explanation"
-        android:text="방 설명"
-        android:layout_width="match_parent"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:fontFamily="@font/smalip"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/gamrketmedium"
         android:gravity="center"
+        android:text="방 설명"
         android:textColor="@color/black"
         android:textSize="14dp"
 
