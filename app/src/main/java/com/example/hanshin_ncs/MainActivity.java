@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         fragment3 = new Fragment3();
         fragment4 = new Fragment4();
         fragment5 = new Fragment5();
+
         setFrag(0); //첫 화면 지정
     }
 

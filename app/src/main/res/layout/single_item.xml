@@ -4,43 +4,30 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="8dp"
+    android:padding="4dp"
 
 
     >
 
     <ImageView
         android:id="@+id/imageview"
-        android:layout_width="180dp"
-        android:layout_height="140dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         android:layout_marginBottom="2dp"
         android:scaleType="fitXY"></ImageView>
+
 
     <TextView
         android:id="@+id/textview_title"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
         android:fontFamily="@font/gamrketmedium"
-        android:gravity="center"
+        android:gravity="left"
         android:text="title"
         android:textColor="@color/black"
-        android:textSize="18dp"
-
-        ></TextView>
-
-    <TextView
-        android:id="@+id/textview_Explanation"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginBottom="4dp"
-        android:fontFamily="@font/gamrketmedium"
-        android:gravity="center"
-        android:text="방 설명"
-        android:textColor="@color/black"
-        android:textSize="14dp"
+        android:textSize="12dp"
 
         ></TextView>
 
